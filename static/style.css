@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    display: block; /* Cambiado de inline-block a block */
+    width: 200px; /* Define un ancho para los botones */
+    margin: 10px auto; /* Alinea los botones al centro */
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
